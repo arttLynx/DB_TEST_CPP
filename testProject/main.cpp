@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <vector>
-
+#include "pause.h"
 using namespace std;
 class User {
     public:
@@ -34,5 +34,8 @@ int main(int argc, const char * argv[]) {
         cout << i+1 << ". " << hobbies[i] << "\n";
     }
     cout << endl ;
+    cout << getPlatform();
+    pause();
     return 0;
-}
+} // ЛИБО СУББОТА ЛИБО ВОСКРЕСЕНЬЕ
+// (ВЕРОНИКА ЮРЬЕВНА АГРОНТИ)
